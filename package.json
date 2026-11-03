@@ -1,0 +1,28 @@
+{
+  "name": "magpie-claude-remote-gateway",
+  "version": "0.4.0",
+  "type": "module",
+  "description": "HTTPS front for Claude Desktop remote sessions, living and dying with Magpie's plugin host",
+  "main": "index.mjs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SevenFo/magpie-claude-remote-gateway.git"
+  },
+  "keywords": [
+    "magpie-plugin",
+    "claude-desktop",
+    "gateway"
+  ],
+  "files": [
+    "index.mjs",
+    "desktop.mjs",
+    "proxy.mjs",
+    "manage.py",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
